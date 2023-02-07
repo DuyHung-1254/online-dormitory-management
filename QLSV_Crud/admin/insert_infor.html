@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <title>Add</title>
+
+    <style>
+      .container
+      {
+        margin-top  : 30px;
+        margin-bottom : 30px;
+      }
+
+      .btn-success
+      {
+        border-radius: 5px;
+        margin-bottom: 5px;;
+      }
+
+    </style>
+</head>
+<body>
+
+    <div class="container" style = "border:1px solid rgb(194, 170, 170)">
+      <h2 style = "color : rgb(100, 104, 125)">Thêm Sinh Viên</h2>
+      <form action="./insert_infor.php" method = "post" >
+        <!-- name -->
+
+        <div class="form-group">
+            <label for="email">Mã SV:</label>
+            <input type ="number"   class="form-control" id="email" placeholder="Enter Mã SV" name="Id">
+        </div>
+
+
+        <div class="form-group">
+            <label for="email">Name:</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter name" name="Name">
+          </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Birthday:</label>
+            <input type="text" class="form-control" id="Birthday" placeholder="Enter Birthday" name="Birthday">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Room:</label>
+            <input type="text" class="form-control" id="Room" placeholder="Enter Room" name="Room">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Phone:</label>
+            <input type="text" class="form-control" id="Phone" placeholder="Enter Phone" name="Phone">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Address:</label>
+            <input type="text" class="form-control" id="Address" placeholder="Enter Address" name="Address">
+        </div>
+
+        <div class="form-group">
+            <label for="email">House:</label>
+            <input type="text" class="form-control" id="House" placeholder="Enter House" name="House">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Bill:</label>
+          <input type="text" class="form-control" id="" placeholder="Enter Bill" name="Bill">
+      </div>
+
+
+      
+      <div class="form-group">
+        <label for="email">Khoa:</label>
+        <input type="text" class="form-control" id="Address" placeholder="Enter Khoa" name="Khoa">
+    </div>
+
+    <div class="form-group">
+        <label for="email">Khóa:</label>
+        <input type="text" class="form-control" id="House" placeholder="Enter Khóa" name="K">
+    </div>
+
+    <div class="form-group">
+      <label for="email">Lớp:</label>
+      <input type="text" class="form-control" id="" placeholder="Enter Lớp" name="Class">
+  </div>
+
+
+
+        
+
+
+
+        <div class="checkbox">
+          <!-- <label><input type="checkbox" name="remember"> Remember me</label> -->
+        </div>
+        <button type="submit" class="btn-success">Submit</button>
+      </form>
+    </div>
+    
+    </body>
+</html>

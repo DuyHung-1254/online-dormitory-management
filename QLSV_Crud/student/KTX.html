@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+   <!--  <link rel="stylesheet" href="ALL.CSS">
+    <link rel="stylesheet" href="SLICK.CSS">
+    <link rel="stylesheet" href="SLICK-THEME.CSS"> -->
+        <link rel="stylesheet" href="KTX.CSS">
+         <link rel="stylesheet" href="BASE.CSS"> 
+
+</head>
+
+<body class="home">
+    <div id="main">
+        <div id="header" class="header">
+            <div class="header__nav">
+                <div class="header__nav-items">
+                    <div class="header__nav-item">
+                            <a href="/" class="header__nav-item-link">Trang chủ</a>
+                        </div>
+                        <div class="header__nav-item">
+                            <a href="/gioi-thieu" class="header__nav-item-link">Giới thiệu</a>
+                        </div>
+                        <div class="header__nav-item">
+                            <a href="/phong" class="header__nav-item-link">Phòng</a>
+                        </div>
+                        <div class="header__nav-item">
+                            <a href="/dich-vu" class="header__nav-item-link">DỊCH VỤ</a>
+                        </div>
+                    </div>
+
+
+                <a href=" " class="header__nav-item-logo-link">
+                        <img src="IMG/LOGO.PNG" alt="" class="header__nav-item-logo">
+                </a>
+
+                <div class="header__nav-items">
+
+                                <div class="header__nav-item">
+                                    <a href="/tin-tucs" class="header__nav-item-link">Tin tức</a>
+                                </div>
+                                <div class="header__nav-item">
+                                    <a href="/gallery" class="header__nav-item-link">Hình ảnh</a>
+                                </div>
+                                <div class="header__nav-item">
+                                    <a href="/lien-he1" class="header__nav-item-link">Liên hệ</a>
+                                </div>
+                                 <div class="header__nav-item">
+                                    <a href="/QLSV_Crud/admin/login_admin.html" class="header__nav-item-link">Đăng nhập</a>
+                                </div>
+                </div>
+				<div class="header__nav-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            </div>
+            
+
+                <img src="IMG/BANNER.PNG" alt="" class="header__img">
+                <div class="header__content">
+                    <h5>WELCOME TO THE PHENIKAA UNIVERSITY DORMITORY</h5>
+                    <h1>KÍ TÚC XÁ CAO CẤP 5 SAO</h1>
+                    <h2><div style="text-align:center"><span style="color:#FFFFFF">Taị Hà Nội</span></div></h2>
+                </div>     
+    </div>
+
+<div class="header__booking">
+    <span class="header__booking-text">BOOK NOW YOUR DORMITORY</span>
+    <div class="header__booking-items">
+        <div class="header__booking-item">
+            <input type="text" placeholder="CHECK IN" name="checkin" class="header__booking-item-input">
+            <i class="fa-solid fa-calendar-plus"></i>
+            <!-- Lich -->
+            <div class="calendar__check-in">
+                <div class="calendar"></div>
+            </div>
+        </div>
+        <div class="header__booking-item">
+            <input type="text" placeholder="CHECK OUT" name="checkout" class="header__booking-item-input">
+            <i class="fa-solid fa-calendar-plus"></i>
+            <!-- Lich -->
+            <div class="calendar__check-out">
+                <div class="calendar2"></div>
+            </div>
+        </div>
+        <div class="header__booking-item">
+            <select name="" id="header__booking-item" class="header__booking-item">
+                <option value="0">SỐ LƯỢNG NGƯỜI</option>
+                <option value="1">2 NGƯỜI</option>
+                <option value="2">4 NGƯỜI</option>
+                <option value="3">6 NGƯỜI</option>
+            </select>
+            <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <span class="header__booking-item-book-now">ĐĂNG KÍ NGAY</span>
+    </div>
+</div>
+
+<div class="container">
+    <div class="container_book-rooms">
+        <div class="container_book-room">
+            <div class="grid wide">
+                <div class="grid__row multiple-items">
+                        <div class="grid__column-3 padding-30 m-6 c-12 padding-0 margin-30">
+                            <div class="container_book-room-items">
+                                <a href="" class="container_book-room-items-link">
+                                    <div class="container_book-room-items-img" style="background-image: url(IMG/6NGUOI.PNG);"></div>
+                                </a>
+                                <div class="container_book-room-item">
+                                    <a href="IMG/6NGUOI.PNG" class="container_book-room-item-name">Phòng Superior<br>(Phòng 6 người)</a>
+                                    <span class="container_book-room-item-price">VND 300K</span>
+                                    <span class="container_book-room-item-description">The PHENIKAA DORMITORY tự hào có 100 phòng Superior Nhìn ra Thành phố mang đến cảm giác thư giãn và trang nhã của phong cách Tân cổ điển.</span>
+                                    <div class="container_book-room-item-star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__column-3 padding-30 m-6 c-12 padding-0 margin-30">
+                            <div class="container_book-room-items">
+                                <a href="" class="container_book-room-items-link">
+                                    <div class="container_book-room-items-img" style="background-image: url(IMG/4NGUOI.PNG);"></div>
+                                </a>
+                                <div class="container_book-room-item">
+                                    <a href="IMG/4NGUOI.PNG" class="container_book-room-item-name">Phòng Senior Deluxe<br>(Phòng 4 người)</a>
+                                    <span class="container_book-room-item-price">VND 600K</span>
+                                    <span class="container_book-room-item-description">Ban công với bàn và ghế êm ái cho phép sinh viên ngồi và chiêm ngưỡng những cảnh quan sống động và đẹp như tranh vẽ của Hà Nội.</span>
+                                    <div class="container_book-room-item-star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__column-3 padding-30 m-6 c-12 padding-0 margin-30">
+                            <div class="container_book-room-items">
+                                <a href="" class="container_book-room-items-link">
+                                    <div class="container_book-room-items-img" style="background-image: url(IMG/2NGUOI.PNG);"></div>
+                                </a>
+                                <div class="container_book-room-item">
+                                    <a href="IMG/2NGUOI.PNG" class="container_book-room-item-name">Phòng Suite<br>(Phòng 2 người)</a>
+                                    <span class="container_book-room-item-price">VND 1200K</span>
+                                    <span class="container_book-room-item-description">Phòng Suite là lựa chọn thông minh của bạn dành cho những sinh viên bình dân vì sự tiện lợi và giá cả hợp lý.</span>
+                                    <div class="container_book-room-item-star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="section" style="background-image: url(IMG/BANNER2.PNG);">
+        <div class="section-warp">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2 padding-0 m-12 c-12">
+                        <div class="section-heading">
+                            <h5>ABOUT THE PHENIKAA UNIVERSITY DORMITORY</h5>
+                            <h2>Làm cho cuộc sống của bạn trở nên có ý nghĩa</h2>
+                        </div>
+                        <div class="section-description">
+                            <div style="text-align: justify;">Đến với The Phenikaa University Dormitory, bạn sẽ được hòa mình vào với thiên nhiên trong lành, được tham gia các hoạt động vui chơi giải trí, thư giãn nghỉ ngơi để trút bỏ hết những ưu phiền và bộn bề của cuộc sống. Khu kí túc xá sang trọng với đầy đủ các hạng mục tiện nghi gồm nhiều loại phòng và bungalow hiện đại kết hợp phong cách truyền thống, hệ thống bể bơi bể sục đa năng cùng hệ thống canteen, phòng hội nghị, khu vui chơi,…<br />
+                            <br />
+                            The Phenikaa University Dormitory với các phòng sang chảnh và bungalow được trang bị đầy đủ tiện nghi, không gian bên trong được bài trí theo phong cách sang trọng pha trộn những nét truyền thống của người Việt và những nét hiện đại của phương Tây. </div>
+
+                        </div>
+                        <br />
+                        <a href="" class="section-btn">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container__facilities">
+        <div class="container__facilities-heading">
+                    <h5>DỊCH VỤ</h5>
+                    <h2>Khám phá Phenikaa University Dormitory</h2>
+                    <p>Chúng tôi tự hào luôn mang đến những dịch vụ tốt nhất với chất lượng hoàn hảo. Với phong cách phục vụ chuyên nghiệp và tận tâm, chúng tôi luôn nỗ lực mang đến cho bạn 1 không gian sống tuyệt vời, lý tưởng như trong mơ.</p>
+        </div>
+        <div class="grid wide">
+            <div class="grid__row">
+                    <div class="grid__column-3 m-6 col c-12">
+                        <div class="container__facilities-warp" style="background-image: url(IMG/BAR.PNG);">
+                            <a href="/dich-vu/9/sky-bar-lounge" class="ontainer__facilities-link">
+                                <h3>Phenikaa Sky Bar</h3>
+                                <p class="c-0">Thiên đường giải trí Hà Nội. Kỷ niệm những khoảng khắc của bạn vơi một trong những điểm nổi bật của chúng tôi về cocktail</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="grid__column-3 m-6 col c-12">
+                        <div class="container__facilities-warp" style="background-image: url(IMG/RES.PNG);">
+                            <a href="/dich-vu/2014/nha-hang" class="ontainer__facilities-link">
+                                <h3>Phenikaa Cateen 5 Stats</h3>
+                                <p class="c-0">Thực đơn hấp dẫn, nhiều lựa chọn cho sinh viên với hơn 200 món ăn đa dạng được chế biến đẳng cấp, bắt mắt, đạt tiêu chuẩn 5 sao.</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="grid__column-3 m-6 col c-12">
+                        <div class="container__facilities-warp" style="background-image: url(IMG/MEETING.PNG);">
+                            <a href="/dich-vu/2015/hoi-thao-su-kien" class="ontainer__facilities-link">
+                                <h3>Phenikaa Events</h3>
+                                <p class="c-0">Phòng hôi nghị rộng 300m2 có sức chứa hơn 200 sinh viên, tùy theo cách bài trí và phong cách của từng sự kiện</p>
+                            </a>
+                        </div>
+                    </div>
+                   <div class="grid__column-3 m-6 col c-12">
+                        <div class="container__facilities-warp" style="background-image: url(IMG/WEDDING.PNG);">
+                            <a href="/dich-vu/2021/tiec-cuoi" class="ontainer__facilities-link">
+                                <h3>Phenikaa Wedding</h3>
+                                <p class="c-0">Hệ thống sảnh tiệc lớn, linh hoạt, được đầu tư trang thiết bị hiện đại sẽ luôn là gợi ý tuyệt vời cho những tiệc cưới, hội nghị đẳng cấp.</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="grid__column-3 m-6 col c-12">
+                        <div class="container__facilities-warp" style="background-image: url(IMG/SPA.PNG);">
+                            <a href="/dich-vu/2022/spa" class="ontainer__facilities-link">
+                                <h3>Phenikaa Spa</h3>
+                                <p class="c-0">Ngoài việc tham quan những thắng cảnh đẹp mê hồn hay tập trung khám phá những nét đặc trưng vốn có của trường học ta đang học...</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="grid__column-3 m-6 col c-12">
+                        <div class="container__facilities-warp" style="background-image: url(IMG/GYM.PNG);">
+                            <a href="/dich-vu/2023/gym" class="ontainer__facilities-link">
+                                <h3>Phenikaa Gym</h3>
+                                <p class="c-0">Tại đây được trang bị hệ thống máy móc hiện đại, đảm bảo những yêu cầu khắt khe nhất và màn hình tivi LCD giúp bạn vừa luyện tập theo ý thích</p>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="container__blog-icon">
+            <i class="fa-solid fa-circle container__blog-icon-btn"></i>
+            <i class="fa-solid fa-circle container__blog-icon-btn"></i>
+        </div>
+    </div>
+    <div class="container__comment">
+        <div class="container__comment-heading">
+            <h5>TESTIMONIALS</h5>
+            <h2>Happy Clients</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta. Pellentesque dictum sem eget cursus semper. Nullam quis blandit lorem.</p>
+        </div>
+	<div class="container__comment-warp grid wide d-flex multiple-items">
+            <div class="container__comment-warp-item m-6 c-0">
+                <p class="container__comment-warp-item-content">Chỗ ở rất thoải mái, rộng rãi và đặc biệt là rất thoáng mát và không khí rất trong lành. Tôi rất ưng với những món ăn được phục vụ tại đây. Tôi nhất định sẽ quay trở lại đây trong tương lai gần.</p>
+                <div class="container__comment-warp-item-user">
+                    <img src="IMG/HUUTAI.PNG" alt="" class="container__comment-warp-item-avt">
+                    <div class="container__comment-warp-item-info">
+                        <p class="container__comment-warp-item-name">Hữu Tài</p>
+                        <p class="container__comment-warp-item-address"><font face = 'Tahoma'>BUCKINGHAM, ENGLAND</font></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container__comment-warp-item m-6 c-0">
+                <p class="container__comment-warp-item-content">Chất lương các dịch vụ của kí túc xá rất tốt, tôi đã có những trải nghiệm vô cùng tuyệt vời nơi đây.</p>
+                <div class="container__comment-warp-item-user">
+                    <img src="IMG/THINGA.PNG" alt="" class="container__comment-warp-item-avt">
+                    <div class="container__comment-warp-item-info">
+                        <p class="container__comment-warp-item-name">Nga Nguyễn</p>
+                        <p class="container__comment-warp-item-address"><font face = 'Tahoma'>UK, BRIGHTON</font></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container__comment-warp-item m-6 c-0">
+                <p class="container__comment-warp-item-content">Tạm được</p>
+                <div class="container__comment-warp-item-user">
+                    <img src="IMG/DUYHUNG.PNG" alt="" class="container__comment-warp-item-avt">
+                    <div class="container__comment-warp-item-info">
+                        <p class="container__comment-warp-item-name">DUY HƯNG</p>
+                        <p class="container__comment-warp-item-address"><font face = 'Tahoma'>HÀ NỘI, VIỆT NAM</font></p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+
+
+<script>
+    //count down javascript
+    //(function () {
+    //    const second = 1000,
+    //        minute = second * 60,
+    //        hour = minute * 60,
+    //        day = hour * 24;
+
+    //    let birthday = "Sep 30, 2021 00:00:00",
+    //        countDown = new Date(birthday).getTime(),
+    //        x = setInterval(function () {
+
+    //            let now = new Date().getTime(),
+    //                distance = countDown - now;
+
+    //            document.getElementById("counter-time-days").innerText = Math.floor(distance / (day)),
+    //                document.getElementById("counter-time-hours").innerText = Math.floor((distance % (day)) / (hour)),
+    //                document.getElementById("counter-time-minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+    //                document.getElementById("counter-time-seconds").innerText = Math.floor((distance % (minute)) / second);
+
+    //            //do something later when date is reached
+    //            if (distance < 0) {
+    //                let headline = document.getElementById("headline"),
+    //                    countdown = document.getElementById("countdown"),
+    //                    content = document.getElementById("content");
+
+    //                headline.innerText = "It's my birthday!";
+    //                countdown.style.display = "none";
+    //                content.style.display = "block";
+
+    //                clearInterval(x);
+    //            }
+    //            //seconds
+    //        }, 0)
+    //}());
+</script>
+
+
+    <div class="footer">
+        <div class="footer-top">
+            <div class="grid">
+                <div class="d-flex m-flex-cl m-12 c-12 c-flex-cl">
+                    <div class="footer-top__social m-12">
+                        <h5>SOCIAL MEDIA</h5>
+                        <p>FOLLOW THE PHENIKAA DORMITORY</p>
+                        <div class="footer-top__social-icon">
+                            <a>
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a>
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="https://grandium.webhotel.vn/">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </a>
+                            <a>
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-top__contact m-12">
+                        <h5>NEWSLETTER</h5>
+                        <p>WE LOVE TO SHARE NEW OFFERS AND EXLUSIVE PROMOTIONS</p>
+                        <div class="footer-top__contact-input">
+                            <input type="text" name="" id="" placeholder="ENTER YOUR E-MAIL ADDRESS">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <img src="/files/images/comment/logo.png" alt="" class="footer-bottom__img">
+            <p>Copyright The PHENIKAA DORMITORY. 202 All Rights Reserved</p>
+            <ul class="footer-bottom__contact">
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Số 147 Mai Dịch, Cầu Giấy, HÀ Nội</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>0904 845 259/ 0904 599 293/ 0934 559 296</p>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <p>info@webdormitory.vn</p>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="footer-bottom__nav">
+                    <li class="quick_list-item">
+                        <a href="lien-he">Liên hệ</a>
+                    </li>
+                    <li class="quick_list-item">
+                        <a href="tin-tucs12">Tin tức</a>
+                    </li>
+                    <li class="quick_list-item">
+                        <a href="ve-chung-toi">Về chúng tôi</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        <a href="#header" class="site-backtop">
+            <i class="fa-solid fa-angle-up"></i>
+        </a>
+
+        </div>
+    </body>
+</html>
+
+ 
+
